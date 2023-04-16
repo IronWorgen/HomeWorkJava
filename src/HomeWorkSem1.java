@@ -1,4 +1,7 @@
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Random;
+import java.util.Scanner;
 
 public class HomeWorkSem1 {
     /*
@@ -60,6 +63,33 @@ public class HomeWorkSem1 {
             }
         }
         return array;
+    }
+
+    /*
+    4. В консоли запросить имя пользователя. В зависимости от текущего времени, вывести приветствие вида:
+        "Доброе утро, <Имя>!", если время от 05:00 до 11:59
+        "Добрый день, <Имя>!", если время от 12:00 до 17:59;
+        "Добрый вечер, <Имя>!", если время от 18:00 до 22:59;
+        "Доброй ночи, <Имя>!", если время от 23:00 до 4:59
+     */
+    public void helloUser() {
+        System.out.println("Как вас зовут?");
+        Scanner scanner = new Scanner(System.in);
+        String userName = scanner.nextLine();
+
+        Date date = new Date();
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("HH");
+        int hoursNow = Integer.parseInt(simpleDateFormat.format(date));
+
+        if (hoursNow >= 5 && hoursNow < 12) {
+            System.out.printf("Доброе утро, %s!", userName);
+        } else if (hoursNow >= 12 && hoursNow < 18) {
+            System.out.printf("Добрый день, %s!", userName);
+        } else if (hoursNow >= 18 && hoursNow < 23) {
+            System.out.printf("Добрый вечер, %s!", userName);
+        } else if (hoursNow >= 23 || hoursNow < 5) {
+            System.out.printf("Доброй ночи, %s!", userName);
+        }
     }
 
 
