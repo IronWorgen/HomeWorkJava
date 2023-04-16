@@ -9,6 +9,10 @@ public class Main {
         int[] array = JustFunction.createRandomArray(10, 0, 10);
         JustFunction.printArray(array);
         homeWorkSem1.minAndMaxInArray(array);
+        //task3
+        int[][] arr = homeWorkSem1.createArrayWithOnesOnDiagonal();
+        System.out.println();
+        JustFunction.printSquareArray(arr);
 
     }
 
