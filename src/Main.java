@@ -19,6 +19,9 @@ public class Main {
         //task4
         homeWorkSem1.helloUser();
 
+        //task5
+        int[] array1 = {3, 5, 6, 1};
+        JustFunction.printArray(homeWorkSem1.arrayShift(array1, -2));
     }
 
 

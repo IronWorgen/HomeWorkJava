@@ -82,15 +82,45 @@ public class HomeWorkSem1 {
         int hoursNow = Integer.parseInt(simpleDateFormat.format(date));
 
         if (hoursNow >= 5 && hoursNow < 12) {
-            System.out.printf("Доброе утро, %s!", userName);
+            System.out.printf("Доброе утро, %s!\n", userName);
         } else if (hoursNow >= 12 && hoursNow < 18) {
-            System.out.printf("Добрый день, %s!", userName);
+            System.out.printf("Добрый день, %s!\n", userName);
         } else if (hoursNow >= 18 && hoursNow < 23) {
-            System.out.printf("Добрый вечер, %s!", userName);
+            System.out.printf("Добрый вечер, %s!\n", userName);
         } else if (hoursNow >= 23 || hoursNow < 5) {
-            System.out.printf("Доброй ночи, %s!", userName);
+            System.out.printf("Доброй ночи, %s!\n", userName);
         }
     }
 
+    /*
+    5.** Написать метод, которому на вход подается одномерный массив и число n (может быть положительным, или отрицательным),
+    при этом метод должен сместить все элементы массива на n позиций. Элементы смещаются циклично.
+    Для усложнения задачи нельзя пользоваться вспомогательными массивами.
+    Примеры: [ 1, 2, 3 ] при n = 1 (на один вправо) -> [ 3, 1, 2 ]; [ 3, 5, 6, 1] при n = -2 (на два влево) -> [ 6, 1, 3, 5 ].
+    При каком n в какую сторону сдвиг можете выбирать сами.
+     */
 
+    int[] arrayShift(int[] array, int len) {
+        int temp ;
+        if (len > 0) {
+            for (int i = 0; i < len; i++) {
+                for (int j = 0; j < array.length; j++) {
+                    temp = array[array.length - 1];
+                    array[array.length - 1] = array[j];
+                    array[j] = temp;
+                }
+
+            }
+        } else {
+            len = len * (-1);
+            for (int i = 0; i < len; i++) {
+                for (int j = array.length - 1; j >= 0; j--) {
+                    temp = array[0];
+                    array[0] = array[j];
+                    array[j] = temp;
+                }
+            }
+        }
+        return array;
+    }
 }
