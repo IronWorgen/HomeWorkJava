@@ -1,3 +1,4 @@
+import java.io.File;
 import java.util.Formatter;
 
 public class HomeWorkSem2 {
@@ -25,6 +26,22 @@ public class HomeWorkSem2 {
         return stringBuilder.toString();
     }
 
+    /*
+    2. Напишите метод, который определит тип (расширение) файлов из текущей папки и выведет в консоль результат
+     */
+    public void fileType() {
+        File file = new File(System.getProperty("user.dir"));
+        String[] files = file.list();
 
-
+        for (int i = 0; i < files.length; i++) {
+            String currentFile = files[i];
+            if (currentFile.contains(".")) {
+                int index = currentFile.lastIndexOf(".");
+                String filenameExtension = currentFile.substring(index + 1, currentFile.length());
+                System.out.printf("%d Расширение файла: %s\n", i + 1, filenameExtension);
+            } else {
+                System.out.printf("%d Расширение файла:\n", i + 1);
+            }
+        }
+    }
 }
