@@ -1,15 +1,19 @@
-import java.util.Random;
+import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
         // seminar 1
-        //HomeWorkSem1Run();
+        //homeWorkSem1Run();
+
         // seminar 2
-        HomeWorkSem2Run();
+        //homeWorkSem2Run();
+
+        //  seminar 3
+        homeWorkSem3Run();
 
     }
 
-    static void HomeWorkSem1Run() {
+    static void homeWorkSem1Run() {
         HomeWorkSem1 homeWorkSem1 = new HomeWorkSem1();
         // task1
         homeWorkSem1.createArray(5, 3);
@@ -32,7 +36,7 @@ public class Main {
         JustFunction.printArray(homeWorkSem1.arrayShift(array1, -2));
     }
 
-    static void HomeWorkSem2Run() {
+    static void homeWorkSem2Run() {
         HomeWorkSem2 homeWorkSem2 = new HomeWorkSem2();
 
         //  task1
@@ -45,6 +49,18 @@ public class Main {
         //  task2
         System.out.println("\nЗадача №2");
         homeWorkSem2.fileType();
+    }
+
+    static void homeWorkSem3Run() {
+        HomeWorkSem3 homeWorkSem3 = new HomeWorkSem3();
+
+        //  task1
+        System.out.println("Задача №1");
+        ArrayList<String> list = homeWorkSem3.createList(5);
+        System.out.println(list);
+        homeWorkSem3.removeIntegerInList(list);
+        System.out.println((list));
+
     }
 
 

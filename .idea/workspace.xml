@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0644a3f8-25f7-4a82-acb3-b4c42585a315" name="Changes" comment="task 4 complete">
-      <change afterPath="$PROJECT_DIR$/src/HomeWorkSem2.java" afterDir="false" />
+    <list default="true" id="0644a3f8-25f7-4a82-acb3-b4c42585a315" name="Changes" comment="sem 3 task 1 complete">
+      <change afterPath="$PROJECT_DIR$/src/HomeWorkSem3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -30,21 +30,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Программирование/GB/Специализация/Java/HW/HomeWork",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Программирование/GB/Специализация/Java/HW/HomeWork&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -56,7 +56,11 @@
       <workItem from="1681639778813" duration="10237000" />
       <workItem from="1681714755694" duration="642000" />
       <workItem from="1681749278480" duration="244000" />
-      <workItem from="1681802676985" duration="1984000" />
+      <workItem from="1681802676985" duration="5630000" />
+      <workItem from="1681813745361" duration="3995000" />
+      <workItem from="1681977391009" duration="643000" />
+      <workItem from="1681995927517" duration="1059000" />
+      <workItem from="1682021808071" duration="2443000" />
     </task>
     <task id="LOCAL-00001" summary="task 1, task 2 complete">
       <created>1681643188641</created>
@@ -79,7 +83,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681647085050</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="sem2 task 1 complete">
+      <created>1681804744315</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681804744315</updated>
+    </task>
+    <task id="LOCAL-00005" summary="sem 2 task 2 complete">
+      <created>1681808080122</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681808080122</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,6 +107,9 @@
     <MESSAGE value="task 1, task 2 complete" />
     <MESSAGE value="task 3 complete" />
     <MESSAGE value="task 4 complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="task 4 complete" />
+    <MESSAGE value="sem2 task 1 complete" />
+    <MESSAGE value="sem 2 task 2 complete" />
+    <MESSAGE value="sem 3 task 1 complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="sem 3 task 1 complete" />
   </component>
 </project>
