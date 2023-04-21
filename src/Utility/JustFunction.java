@@ -1,3 +1,5 @@
+package Utility;
+
 import java.util.Random;
 
 public class JustFunction {
@@ -9,6 +11,16 @@ public class JustFunction {
                 System.out.println(array[i]);
             } else {
                 System.out.printf("%d, ", array[i]);
+            }
+        }
+    }
+
+    public static final void printArray(String[] array) {
+        for (int i = 0; i < array.length; i++) {
+            if (i == array.length - 1) {
+                System.out.println(array[i]);
+            } else {
+                System.out.printf("%s, ", array[i]);
             }
         }
     }

@@ -1,3 +1,6 @@
+import Seminar3.HomeWorkSem3;
+import Utility.JustFunction;
+
 import java.util.ArrayList;
 
 public class Main {
@@ -55,11 +58,15 @@ public class Main {
         HomeWorkSem3 homeWorkSem3 = new HomeWorkSem3();
 
         //  task1
-        System.out.println("Задача №1");
-        ArrayList<String> list = homeWorkSem3.createList(5);
+        System.out.println("\nЗадача №1");
+        ArrayList<String> list = homeWorkSem3.createList(1);
         System.out.println(list);
         homeWorkSem3.removeIntegerInList(list);
         System.out.println((list));
+
+        //task2
+        System.out.println("\nЗадача №2");
+        homeWorkSem3.createLibrary();
 
     }
 
