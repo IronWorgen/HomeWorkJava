@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0644a3f8-25f7-4a82-acb3-b4c42585a315" name="Changes" comment="sem 3 task 1 complete">
-      <change afterPath="$PROJECT_DIR$/src/HomeWorkSem3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="0644a3f8-25f7-4a82-acb3-b4c42585a315" name="Changes" comment="sem 3 task 1 complete" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,6 +106,7 @@
     <MESSAGE value="sem2 task 1 complete" />
     <MESSAGE value="sem 2 task 2 complete" />
     <MESSAGE value="sem 3 task 1 complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="sem 3 task 1 complete" />
+    <MESSAGE value="sem 3 task 2 complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="sem 3 task 2 complete" />
   </component>
 </project>
