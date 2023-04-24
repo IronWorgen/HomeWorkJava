@@ -59,7 +59,7 @@ public class Main {
 
         //  task1
         System.out.println("\nЗадача №1");
-        ArrayList<String> list = homeWorkSem3.createList(1);
+        ArrayList<String> list = homeWorkSem3.createList(4);
         System.out.println(list);
         homeWorkSem3.removeIntegerInList(list);
         System.out.println((list));
@@ -67,6 +67,10 @@ public class Main {
         //task2
         System.out.println("\nЗадача №2");
         homeWorkSem3.createLibrary();
+
+        //task3
+        System.out.println("\nЗадача №2");
+        homeWorkSem3.planet();
 
     }
 

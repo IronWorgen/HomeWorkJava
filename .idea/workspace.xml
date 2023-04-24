@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0644a3f8-25f7-4a82-acb3-b4c42585a315" name="Changes" comment="sem 3 task 1 complete">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Seminar3/Task2Library.java" afterDir="false" />
+    <list default="true" id="0644a3f8-25f7-4a82-acb3-b4c42585a315" name="Changes" comment="sem 3 task 2 complete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWorkSem3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Seminar3/HomeWorkSem3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JustFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JustFunction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Seminar3/HomeWorkSem3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Seminar3/HomeWorkSem3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +36,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Программирование/GB/Специализация/Java/HW/HomeWork",
+    "last_opened_file_path": "D:/Программирование/GB/Специализация/Java/sem/Sem3",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -67,6 +64,7 @@
       <workItem from="1682021808071" duration="3301000" />
       <workItem from="1682060943364" duration="1009000" />
       <workItem from="1682083583126" duration="4895000" />
+      <workItem from="1682353950760" duration="1010000" />
     </task>
     <task id="LOCAL-00001" summary="task 1, task 2 complete">
       <created>1681643188641</created>
@@ -110,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682024426621</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="sem 3 task 2 complete">
+      <created>1682089599408</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1682089599408</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +128,7 @@
     <MESSAGE value="sem2 task 1 complete" />
     <MESSAGE value="sem 2 task 2 complete" />
     <MESSAGE value="sem 3 task 1 complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="sem 3 task 1 complete" />
+    <MESSAGE value="sem 3 task 2 complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="sem 3 task 2 complete" />
   </component>
 </project>

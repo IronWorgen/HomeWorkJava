@@ -3,9 +3,7 @@ package Seminar3;
 
 import Utility.JustFunction;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 public class HomeWorkSem3 {
 
@@ -59,8 +57,51 @@ public class HomeWorkSem3 {
         String[] books = library.getBooksByGenre("Научная фантастика");
         System.out.print("Научная фантастика: ");
         JustFunction.printArray(books);
-
-
     }
 
+    /*
+        Задание №2.1
+            Заполнить список названиями планет Солнечной системы в произвольном порядке с повторениями.
+            Вывести название каждой планеты и количество его повторений в списке.
+
+        Задание №2.2 (если выполнено первое задание)
+            Пройти по списку из предыдущего задания и удалить повторяющиеся элементы.
+     */
+
+    public void planet() {
+        String[] s = {"Меркурий", "Венера", "Земля", "Марс", "Юпитер", "Сатурн", "Нептун"};
+        Random random = new Random();
+        List<String> list = new ArrayList<>();
+        for (int i = 0; i < 15; i++) {
+            list.add(s[random.nextInt(0, s.length)]);
+        }
+        System.out.println(list);
+        int counter = 0;
+        for (String planet : s) {
+            for (String i : list) {
+                if (planet.equals(i)) {
+                    counter++;
+                }
+            }
+            System.out.printf("%s встречается %d раз\n", planet, counter);
+            counter = 0;
+        }
+        System.out.println(list);
+        System.out.println(removeDuplicates((ArrayList<String>) list));
+    }
+
+    // Пройти по списку из предыдущего задания и удалить повторяющиеся элементы.
+    private ArrayList removeDuplicates(ArrayList<String> list) {
+        Collections.sort(list);
+        int i = 0;
+        while (i < list.size() - 1) {
+            if (list.get(i + 1).equals(list.get(i))) {
+                list.remove(i);
+
+            } else {
+                i++;
+            }
+        }
+        return list;
+    }
 }
