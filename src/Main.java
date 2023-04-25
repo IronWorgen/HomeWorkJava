@@ -1,4 +1,5 @@
 import Seminar3.HomeWorkSem3;
+import Seminar4.HomeWorkSem4;
 import Utility.JustFunction;
 
 import java.util.ArrayList;
@@ -12,7 +13,10 @@ public class Main {
         //homeWorkSem2Run();
 
         //  seminar 3
-        homeWorkSem3Run();
+        //homeWorkSem3Run();
+
+        //  seminar 4
+        homeWorkSem4Run();
 
     }
 
@@ -71,6 +75,16 @@ public class Main {
         //task3
         System.out.println("\nЗадача №2");
         homeWorkSem3.planet();
+
+    }
+
+    static void homeWorkSem4Run() {
+        HomeWorkSem4 homeWorkSem4 = new HomeWorkSem4();
+
+        //  task1
+        System.out.println("\nЗадача №1");
+        homeWorkSem4.task1();
+
 
     }
 
