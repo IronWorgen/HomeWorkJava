@@ -1,5 +1,6 @@
 package Utility;
 
+import java.util.LinkedList;
 import java.util.Random;
 
 public class JustFunction {
@@ -47,6 +48,14 @@ public class JustFunction {
             array[i] = random.nextInt(minValue, maxValue + 1);
         }
         return array;
+    }
+
+    // Печать LinkedList
+    public static final void printLinkedList(LinkedList<Integer> list) {
+        for (int i = 0; i < list.size() - 1; i++) {
+            System.out.printf("%d, ", list.get(i));
+        }
+        System.out.println(list.get(list.size() - 1));
     }
 
 

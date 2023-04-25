@@ -3,6 +3,7 @@ import Seminar4.HomeWorkSem4;
 import Utility.JustFunction;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 
 public class Main {
     public static void main(String[] args) {
@@ -85,7 +86,15 @@ public class Main {
         System.out.println("\nЗадача №1");
         homeWorkSem4.task1();
 
-
+        //  task2
+        System.out.println("\nЗадача №2");
+        LinkedList<Integer> list = new LinkedList<>();
+        for (int i = 0; i < 20; i++) {
+            list.add(i);
+        }
+        JustFunction.printLinkedList(list);
+        System.out.println();
+        JustFunction.printLinkedList(homeWorkSem4.listReverse(list));
     }
 
 
