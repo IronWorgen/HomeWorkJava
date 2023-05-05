@@ -34,7 +34,7 @@ public class InputQueue {
     }
 
     protected void removeLastString() {
-        if (queue.size() != 0) {
+        if (queue.size() != 0) { 
             queue.removeLast();
         } else {
             System.out.println("Очередь пуста");
