@@ -1,6 +1,7 @@
 package Seminar5;
 
 import Seminar5.Task1.PhoneBook;
+import Seminar5.Task2.Task2;
 
 public class Seminar5Run {
     public static void main(String[] args) {
@@ -14,5 +15,11 @@ public class Seminar5Run {
 
         // task2
         System.out.println("\n\nЗадача №2");
+        Task2 task2 = new Task2("Иван Иванов, Светлана Петрова, Кристина Белова, Анна Мусина, Анна Крутова, Иван Юрин, " +
+                "Петр Лыков, Павел Чернов, Петр Чернышов, Мария Федорова, Марина Светлова, " +
+                "Мария Савина, Мария Рыкова, Марина Лугова, Анна Владимирова, Иван Мечников, Петр Петин, Иван Ежов");
+        task2.sortedPrint();
+
+
     }
 }
