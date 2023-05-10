@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0644a3f8-25f7-4a82-acb3-b4c42585a315" name="Changes" comment="sem 5 task 1 complete">
-      <change afterPath="$PROJECT_DIR$/src/Seminar5/Task2/Task2.java" afterDir="false" />
+    <list default="true" id="0644a3f8-25f7-4a82-acb3-b4c42585a315" name="Changes" comment="sem 5 task 2 complete">
+      <change afterPath="$PROJECT_DIR$/src/Seminar5/Task3/Chess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Seminar5/Task3/Queen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Seminar4/InputQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Seminar4/InputQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Seminar5/Seminar5Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Seminar5/Seminar5Run.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Seminar5/Task1/PhoneBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Seminar5/Task1/PhoneBook.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683291846095</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="sem 5 task 2 complete">
+      <created>1683627077359</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1683627077359</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,7 +177,8 @@
     <MESSAGE value="sem 4 task 1 complete" />
     <MESSAGE value="sem 4 task 2 complete" />
     <MESSAGE value="sem 5 task 1 complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="sem 5 task 1 complete" />
+    <MESSAGE value="sem 5 task 2 complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="sem 5 task 2 complete" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
